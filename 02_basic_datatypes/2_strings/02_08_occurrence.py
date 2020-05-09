@@ -7,3 +7,8 @@ Letter input: o
 Result: 4
 
 '''
+userin = input("Say something here: ")
+numin = input("Put a number here: ")
+
+
+print(userin[int(numin)-1])

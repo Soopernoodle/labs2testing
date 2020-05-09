@@ -8,3 +8,7 @@ Result: #ore python progra##ing please
 
 '''
 
+editing = input("Put something in here please: ")
+sym = input ("Put a symbol in here please: ")
+editing = editing.lower()
+print(editing.replace("p", sym))

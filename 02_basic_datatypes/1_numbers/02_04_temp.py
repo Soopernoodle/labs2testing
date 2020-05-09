@@ -10,3 +10,6 @@ Output should read like - "81.32 degrees fahrenheit = 27.4 degrees celsius"
 
 
 '''
+Fahren = input("Please put in your degrees in Fahrenheit 90")
+Cel = ( int(Fahren) - 32) * (5 / 9)
+print(str(Fahren) + " degrees fahrenheit = " + str(Cel) + " degrees celsius" )
