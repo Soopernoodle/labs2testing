@@ -9,3 +9,9 @@ that we haven't looked at yet. See if you can figure it out, otherwise
 come back to this task after you have learned about loops)
 
 '''
+x = [int(x) for x in input("Enter multiple values separated by space: ").split()]
+x.sort()
+print(x[-1])
+
+bleh = sum(x)
+print(bleh)

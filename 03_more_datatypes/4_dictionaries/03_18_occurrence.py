@@ -6,3 +6,11 @@ user_input = "hello"
 result = {"h": 1, "e": 1, "l": 2, "o": 1}
 
 '''
+bleh = input("Put something in here: ")
+stim = {}
+for keys in bleh:
+    stim[keys] = stim.get(keys, 0) + 1
+
+print(stim)
+
+

@@ -17,3 +17,8 @@ Another example: if input is 3, you will output
 Hint: Think of nested for loops
 
 '''
+
+n = int(input("Put in your number of rows for the pyramid: "))
+
+for i in range(0,n+1):
+    print("*" *  i )

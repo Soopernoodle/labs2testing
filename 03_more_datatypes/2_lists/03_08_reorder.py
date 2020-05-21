@@ -7,3 +7,8 @@ Example input:  1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+x = [int(x) for x in input("Enter multiple values separated by space: ").split()]
+neworder = [2, 4, 6, 8, 10, 9, 7, 5, 3, 1]
+
+y = [x[i] for i in neworder]
+print(y)

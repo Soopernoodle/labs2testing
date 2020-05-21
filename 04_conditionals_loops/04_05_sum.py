@@ -7,3 +7,10 @@ The output of your calculation should therefore look like this:
 
 The sum is: 5050
 '''
+bottom = int(input("Put in your lower number here: "))
+top= int(input("Put your higher number here: "))
+y = 0
+for x in range(bottom, top + 1):
+    y += x
+
+print(y)
